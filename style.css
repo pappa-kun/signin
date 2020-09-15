@@ -1,0 +1,79 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+#box{
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 20px;
+    padding: 5px 15px 5px;
+    outline-style: solid;
+    outline-width: thin;
+    outline-color: #D3D3D3;
+}
+
+#teksti{
+    font-weight: bold;
+    position: relative;
+    right: 10px;
+    top: 5px;
+}
+
+#teksti2{
+    font-weight: bold;
+    position: relative;
+    right: 75px;
+    top: 10px;
+}
+
+#tulos{
+    color: red;
+}
+
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+  position: relative;
+  right: 50px;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-radius: 7px;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-radius: 7px;
+}
