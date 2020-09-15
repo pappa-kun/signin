@@ -1,4 +1,4 @@
-
+"use strict";
 
 const btnSignIn = document.querySelector("#btnSignIn");
     
